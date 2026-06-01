@@ -3,7 +3,7 @@
 # Benita Diop
 
 
-I am a data professional with experience building **cloud-native data platforms, scalable ETL/ELT pipelines, machine learning infrastructure, and analytics solutions** across enterprise environments.
+AI Governance and Risk Management professional with 7+ years in regulated financial services, specializing in model risk governance, data quality controls, and regulatory compliance. AIGP certified. 
 
 
 ---
