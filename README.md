@@ -3,7 +3,7 @@
 # Benita Diop
 
 
-AI Governance and Risk Management professional with 7+ years in regulated financial services, specializing in model risk governance, data quality controls, and regulatory compliance. AIGP certified. 
+AI Governance and Risk Management professional with 7+ years in regulated financial services, specializing in model risk governance, data quality controls, and regulatory compliance. 
 
 
 ---
