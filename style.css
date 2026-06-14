@@ -6,7 +6,6 @@
   --window-face: #ece9d8;
   --window-edge: #0054e3;
   --text: #111;
-  --sprite: url("assets/vibe2.png");
 }
 
 * {
@@ -141,36 +140,34 @@ a {
   overflow-wrap: anywhere;
 }
 
-.icon-sprite {
+.desktop-icon-image {
   display: block;
-  background-image: var(--sprite);
-  background-repeat: no-repeat;
-  background-size: 543px 724px;
+  object-fit: contain;
+  filter: drop-shadow(3px 4px 2px rgba(0, 0, 0, 0.32));
 }
 
 .work-icon {
   width: 70px;
   height: 64px;
-  background-position: -54px -244px;
 }
 
 .blog-icon {
   width: 66px;
   height: 60px;
   margin-top: 2px;
-  background-position: -233px -249px;
 }
 
 .consulting-icon {
   width: 74px;
   height: 62px;
-  background-position: -381px -243px;
 }
 
 .mini-work-icon {
+  display: block;
   width: 70px;
   height: 64px;
-  background-position: -54px -244px;
+  object-fit: contain;
+  filter: drop-shadow(3px 4px 2px rgba(0, 0, 0, 0.22));
   transform: scale(0.92);
   transform-origin: top center;
 }
@@ -264,12 +261,10 @@ a {
 }
 
 .portrait {
+  display: block;
   width: 224px;
   height: 206px;
-  background-image: var(--sprite);
-  background-repeat: no-repeat;
-  background-size: 786px 1048px;
-  background-position: -28px -29px;
+  object-fit: cover;
 }
 
 .profile-copy {
