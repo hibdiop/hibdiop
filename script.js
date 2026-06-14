@@ -88,10 +88,6 @@ windows.forEach((win) => {
   });
 });
 
-document.querySelector(".xp-button").addEventListener("click", () => {
-  document.querySelector("#bioWindow").hidden = true;
-});
-
 desktopIcons.forEach((icon) => {
   let clickTimer = null;
 
