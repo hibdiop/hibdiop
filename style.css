@@ -355,6 +355,38 @@ a {
   margin: 0;
 }
 
+.bio-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.bio-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  padding: 5px 14px 6px;
+  color: #111;
+  font-family: Tahoma, "Segoe UI", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.1;
+  text-decoration: none;
+  background: #ece9d8;
+  border: 2px outset #fff;
+  box-shadow: 0 0 0 1px #404040;
+}
+
+.bio-action:focus-visible {
+  outline: 1px dotted #111;
+  outline-offset: -5px;
+}
+
+.bio-action:active {
+  transform: translate(1px, 1px);
+}
+
 .dialog-actions {
   display: flex;
   justify-content: center;
