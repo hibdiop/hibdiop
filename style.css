@@ -232,7 +232,6 @@ a {
 }
 
 .title-button:active,
-.xp-button:active,
 .start-button:active {
   transform: translate(1px, 1px);
 }
@@ -385,28 +384,6 @@ a {
 
 .bio-action:active {
   transform: translate(1px, 1px);
-}
-
-.dialog-actions {
-  display: flex;
-  justify-content: center;
-  padding: 8px 0 18px;
-}
-
-.xp-button {
-  min-width: 82px;
-  min-height: 26px;
-  padding: 2px 18px 3px;
-  color: #111;
-  cursor: pointer;
-  background: #ece9d8;
-  border: 2px outset #fff;
-  box-shadow: 0 0 0 1px #404040;
-}
-
-.xp-button:focus-visible {
-  outline: 1px dotted #111;
-  outline-offset: -5px;
 }
 
 .taskbar {
