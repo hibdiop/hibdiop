@@ -3,8 +3,7 @@
 # Benita Diop
 
 
-AI Governance and Risk Management professional with 10+ years in regulated financial services, specializing in model risk governance, data quality controls, and regulatory compliance. 
-
+AI Governance and Risk Management professional with 10+ years of experience across regulated financial services, model risk, and technology risk, specializing in AI risk assessments, model governance, data quality and lineage, monitoring controls, and regulatory compliance, with expertise applying frameworks and standards including NIST AI RMF, EU AI Act, ISO/IEC 42001, and established model risk management practices.
 
 ---
 
