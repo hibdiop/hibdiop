@@ -88,6 +88,14 @@ windows.forEach((win) => {
   });
 });
 
+function openIcon(icon) {
+  if (icon.target === "_blank") {
+    window.open(icon.href, "_blank", "noopener,noreferrer");
+  } else {
+    window.location.href = icon.href;
+  }
+}
+
 desktopIcons.forEach((icon) => {
   let clickTimer = null;
 
@@ -99,7 +107,7 @@ desktopIcons.forEach((icon) => {
     if (clickTimer) {
       clearTimeout(clickTimer);
       clickTimer = null;
-      window.open(icon.href, "_blank", "noopener,noreferrer");
+      openIcon(icon);
       return;
     }
 
@@ -110,7 +118,8 @@ desktopIcons.forEach((icon) => {
 
   icon.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
-      window.open(icon.href, "_blank", "noopener,noreferrer");
+      event.preventDefault();
+      openIcon(icon);
     }
   });
 });
